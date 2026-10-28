@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctors - SmartCare</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #eef5ff;
+        }
+
+        /* Navbar */
+        nav {
+            height: 70px;
+            background: #101329;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 8%;
+        }
+
+        .logo {
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #4db8ff;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 30px;
+        }
+
+        nav a:hover {
+            color: #4db8ff;
+        }
+
+        /* Heading */
+        .heading {
+            text-align: center;
+            padding: 45px 20px 25px;
+        }
+
+        .heading h1 {
+            color: #15244d;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .heading p {
+            color: #667085;
+        }
+
+        /* Doctor Cards */
+        .doctors {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto 60px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 280px;
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(30, 60, 100, 0.12);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .doctor-icon {
+            width: 90px;
+            height: 90px;
+            margin: auto;
+            border-radius: 50%;
+            background: #dff3ff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 45px;
+        }
+
+        .card h2 {
+            margin-top: 18px;
+            color: #172554;
+        }
+
+        .speciality {
+            color: #1597d4;
+            font-weight: bold;
+            margin: 8px 0;
+        }
+
+        .info {
+            color: #667085;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 18px;
+            padding: 10px 20px;
+            background: #1597d4;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .btn:hover {
+            background: #087bb5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">🏥 Smart<span>Care</span></div>
+
+        <div>
+            <a href="index.html">Home</a>
+            <a href="#">Services</a>
+            <a href="doctors.html">Doctors</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Heading -->
+    <div class="heading">
+        <h1>Our Doctors</h1>
+        <p>Meet our experienced healthcare professionals</p>
+    </div>
+
+    <!-- Doctor Cards -->
+    <div class="doctors">
+
+        <div class="card">
+            <div class="doctor-icon">👨‍⚕️</div>
+            <h2>Dr. Sharma</h2>
+            <p class="speciality">General Physician</p>
+            <p class="info">
+                Experienced in general health
+                consultation and patient care.
+            </p>
+            <a href="appointment.html" class="btn">
+                Book Appointment
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="doctor-icon">👩‍⚕️</div>
+            <h2>Dr. Verma</h2>
+            <p class="speciality">Cardiologist</p>
+            <p class="info">
+                Specializes in heart-related
+                health consultation and care.
+            </p>
+            <a href="appointment.html" class="btn">
+                Book Appointment
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="doctor-icon">👨‍⚕️</div>
+            <h2>Dr. Singh</h2>
+            <p class="speciality">Pediatrician</p>
+            <p class="info">
+                Provides healthcare and
+                consultation for children.
+            </p>
+            <a href="appointment.html" class="btn">
+                Book Appointment
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>

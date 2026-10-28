@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Government Hospital</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f2f8fc;
+            color: #17324d;
+        }
+
+        header {
+            background: linear-gradient(135deg, #087f8c, #155e9e);
+            color: white;
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 16px;
+        }
+
+        .hero {
+            min-height: 520px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px 10%;
+            background: linear-gradient(120deg, #e8f8fa, #eef5ff);
+        }
+
+        .hero-text {
+            max-width: 600px;
+        }
+
+        .hero-text h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #075e70;
+        }
+
+        .hero-text p {
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 25px;
+            background: #087f8c;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .hospital-card {
+            background: white;
+            width: 300px;
+            padding: 35px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+        }
+
+        .hospital-card .icon {
+            font-size: 75px;
+            margin-bottom: 15px;
+        }
+
+        .services {
+            padding: 50px 10%;
+            text-align: center;
+        }
+
+        .services h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            color: #075e70;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 220px;
+            padding: 30px 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            margin: 15px 0 10px;
+        }
+
+        .card p {
+            color: #666;
+        }
+
+        footer {
+            background: #123b55;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">🏥 SmartCare</div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="doctors.html">Doctors</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+
+        <div class="hero-text">
+            <h1>Smart Government Hospital</h1>
+
+            <p>
+                A modern hospital management system designed
+                to make healthcare services simple, fast and organized.
+            </p>
+
+            <a href="appointment.html" class="btn">Book Appointment</a>
+        </div>
+
+        <div class="hospital-card">
+            <div class="icon">🏥</div>
+            <h2>Healthcare Made Simple</h2>
+            <p>Patient care • Doctors • Appointments</p>
+        </div>
+
+    </section>
+
+    <section class="services">
+
+        <h2>Our Services</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <div style="font-size:45px;">👨‍⚕️</div>
+                <h3>Find Doctor</h3>
+                <p>View available doctors.</p>
+            </div>
+
+            <div class="card">
+                <div style="font-size:45px;">📅</div>
+                <h3>Appointments</h3>
+                <p>Book your appointment easily.</p>
+            </div>
+
+            <div class="card">
+                <div style="font-size:45px;">📋</div>
+                <h3>Patient Records</h3>
+                <p>Manage patient information.</p>
+            </div>
+
+            <div class="card">
+                <div style="font-size:45px;">💊</div>
+                <h3>Medicine</h3>
+                <p>Manage prescriptions and medicines.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Smart Government Hospital Management System</p>
+    </footer>
+
+</body>
+</html>
